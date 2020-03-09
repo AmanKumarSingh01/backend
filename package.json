@@ -1,0 +1,30 @@
+{
+  "name": "hostels",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": "git@github.com:AmanKumarSingh01/Hostels.git",
+  "author": "AmanKumarSingh01 <imh10012.16@bitmesra.ac.in>",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "mongodb": "^3.5.3",
+    "mongoose": "^5.9.1",
+    "nodemailer": "^6.4.4",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
